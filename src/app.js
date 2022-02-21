@@ -39,6 +39,7 @@ app.use(async (req, res, next) => {
       console.log('Invalid token', e);
     }
   }
+
   next();
 });
 
